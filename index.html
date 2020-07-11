@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="description" content="A Online Blood bank by sigma NGO, Abhijeet Sharma">
+    <link rel="icon" href="favicon.png">
+    <title> The Online Blood Bank </title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="w3.css">
+    <link rel="stylesheet" href="app.css">
+    
+    <style>
+        body,h1,h2,h3,h4,h5,h6 { font-family: "Lato", sans-serif }
+        .w3-bar,h1,button { font-family: "Montserrat", sans-serif }
+        .fa-anchor,.fa-coffee { font-size: 200px }
+        /* scollbar */
+        ::-webkit-scrollbar { width: 7px; }
+        ::-webkit-scrollbar-track { background: #f44336; }
+        ::-webkit-scrollbar-thumb { background: rgb(255, 255, 255); }
+        /* ::-webkit-scrollbar-thumb:hover { background: rgb(104, 104, 104); } */
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-top">
+        <div class="w3-bar w3-red w3-card w3-left-align w3-large">
+            <a rel="noreferrer" aria-label="menu" class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red"
+                href="javascript:void(0);" onclick="toggleNavBar()"><i class="fa fa-bars"></i></a>
+            <a rel="noreferrer" href="#" class="w3-bar-item w3-button w3-padding-large w3-white">RakhtCharitra.org</a>
+            <a rel="noreferrer" href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Home</a>
+            <a rel="noreferrer" href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Donor</a>
+            <a rel="noreferrer" href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Search</a>
+            <a rel="noreferrer" href="#" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Contact</a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+            <a rel="noreferrer" href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
+            <a rel="noreferrer" href="#" class="w3-bar-item w3-button w3-padding-large">Donor</a>
+            <a rel="noreferrer" href="#" class="w3-bar-item w3-button w3-padding-large">Search</a>
+            <a rel="noreferrer" href="#" class="w3-bar-item w3-button w3-padding-large">Contact</a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="w3-container w3-red w3-center" style="padding:128px 16px">
+        <h1 class="w3-margin w3-jumbo">
+            The Online Blood Bank
+            <i class="fa fa-heartbeat"></i>
+        </h1>
+        <p class="w3-xlarge">Rakhta Charitra | Sigma NGO </p>
+        <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">
+            <i class="fa fa-medkit"></i>
+            Get Started
+        </button>
+    </header>
+
+    <!-- First Grid -->
+    <div class="w3-row-padding w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-twothird">
+                <h1> Hello Visiters! </h1>
+                <h5 class="w3-padding-32"> We Welcomes You to the Blood Bank database in our WebSite. If you are a donor
+                    , We appreciate you signing up online as a Donor. If you need blood we are happy to help you.</h5>
+
+                <p>This blood donor list is hosted by Sigma NGO on behalf of City Hospital as a
+                    public service without any profit motive. This is a free service.
+                </p>
+            </div>
+
+            <div class="w3-third w3-center">
+                <i style="font-size: 200px" class="fa fa-tint w3-padding-64 w3-text-red"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Second Grid -->
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+        <div class="w3-content">
+            <div class="w3-third w3-center">
+                <i style="font-size: 200px" class="fa fa-heartbeat w3-padding-64 w3-text-red w3-margin-right"></i>
+            </div>
+
+            <div class="w3-twothird">
+                <h1>
+                    <i class="fa fa-ambulance"></i>
+                    Project Rakhta Charitra
+                </h1>
+                <h5 class="w3-padding-32">Our main priority is to save every one instead of someone, by giving blood and
+                    medical support.
+                </h5>
+
+                <p>By belief that we are the obedient of nature and we abide to follow the nature
+                    rules and regulations, that humans are necessity of each other and no one can ignore that all are
+                    related with blood relations, no matter what the caste and
+                    category is. By the same way we are providing the basic and most important things to the
+                    civilization which is “BLOOD”. It means we are “RakhtCharitra.org” is the median of receiver and the
+                    donor.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="w3-container w3-black w3-center w3-opacity w3-padding-64">
+        <h1 class="w3-margin w3-xlarge">
+            EVERY DONOR IS A LIFE SAVER
+        </h1>
+    </div>
+
+    <!-- Footer -->
+    <footer class="w3-container w3-padding-64 w3-center">
+        <p> Powered by <a rel="noreferrer" href="https://github.com/iamabs2001" target="_blank"> Sigma NGO </a></p>
+    </footer>
+    <link rel="stylesheet" href="font-awesome.min.css">
+    <script async src="app.js"></script>
+</body>
+
+</html>
