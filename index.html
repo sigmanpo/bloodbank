@@ -4,7 +4,7 @@
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="description" content="A Online Blood bank by sigma NGO, Abhijeet Sharma">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <meta name="theme-color" content="#f44336">
 
     <title> The Online Blood Bank </title>
@@ -17,7 +17,8 @@
         body,h1,h2,h3,h4,h5,h6 { font-family: "Lato", sans-serif }
         .w3-bar,h1,button { font-family: "Montserrat", sans-serif }
         .fa-anchor,.fa-coffee { font-size: 200px }
-        
+        /* Smooth */
+        html {scroll-behavior: smooth;}
         /* stop to select */
         body{-webkit-user-select:none;-moz-user-select:-moz-none;
         -ms-user-select:none;user-select:none}
@@ -61,10 +62,10 @@
             <i class="fa fa-heartbeat"></i>
         </h1>
         <p class="w3-xlarge">Rakhta Charitra | Sigma NGO </p>
-        <button class="w3-button w3-black w3-padding-large w3-large w3-margin-top">
+        <a href="#project" class="w3-button w3-black w3-padding-large w3-large w3-margin-top">
             <i class="fa fa-medkit"></i>
             Get Started
-        </button>
+        </a>
     </header>
 
     <!-- First Grid -->
@@ -87,7 +88,7 @@
     </div>
 
     <!-- Second Grid -->
-    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+    <div class="w3-row-padding w3-light-grey w3-padding-64 w3-container" id="project">
         <div class="w3-content">
             <div class="w3-third w3-center">
                 <i style="font-size: 200px" class="fa fa-heartbeat w3-padding-64 w3-text-red w3-margin-right"></i>
