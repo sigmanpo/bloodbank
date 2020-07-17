@@ -1,9 +1,7 @@
-/* Extra style */
-
-
-
-  /* Extra Style */
-
+.round {
+    border-radius: 100px;
+    border:2px solid;
+}
 
 body,
 h1,
