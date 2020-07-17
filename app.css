@@ -1,4 +1,18 @@
-.round {
+.search-bar {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 350px;
+    height: 38px;
+    border-radius: 6px;
+    color:white;
+    background-color: rgb(248, 87, 87);
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 0.6; /* Firefox */
+  }
+
+.get-started {
     border-radius: 100px;
     border:2px solid;
 }
