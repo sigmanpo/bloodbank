@@ -611,8 +611,8 @@ a {
         max-width: 95%
     }
 }
-
-@media (max-width:600px) {
+/* hide small 615 */
+@media (max-width:615px) {
     .w3-modal-content {
         margin: 0 10px;
         width: auto!important
@@ -666,8 +666,8 @@ a {
         display: block!important
     }
 }
-
-@media (max-width:992px) and (min-width:601px) {
+/* hide medium 615 */
+@media (max-width:992px) and (min-width:615px) {
     .w3-hide-medium {
         display: none!important
     }
